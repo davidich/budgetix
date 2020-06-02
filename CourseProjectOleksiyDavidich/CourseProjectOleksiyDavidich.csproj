@@ -177,10 +177,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BudgetixDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="BudgetixDB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>BudgetixDB.mdf</DependentUpon>
     </Content>
     <None Include="Resources\icons8-print-16.png" />
